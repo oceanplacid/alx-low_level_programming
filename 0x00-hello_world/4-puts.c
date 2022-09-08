@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  *string printing function
- * /
+ */
 /**
  * main - prints a string to the screen
  * Description: prints string
