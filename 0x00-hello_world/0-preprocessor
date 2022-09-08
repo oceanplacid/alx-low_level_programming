@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CIFLE -o c
+gcc $CFILE -o c
