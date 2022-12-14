@@ -10,9 +10,10 @@
 void print_alphabet_x10()
 {
 	int count = 1;
-	
+	char letters;
+
 	start:
-		for (char letters = 'a'; letters <= 'z'; letters++)
+		for (letters = 'a'; letters <= 'z'; letters++)
 		{	
 			putchar(letters);
 		}
@@ -24,8 +25,9 @@ void print_alphabet_x10()
 		}
 }
 
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
+/**int main(void)
+ *{
+ *	print_alphabet_x10();
+ *	return (0);
+ *}
+ */
