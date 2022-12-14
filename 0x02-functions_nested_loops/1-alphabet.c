@@ -9,7 +9,9 @@
  */
 void print_alphabet()
 {
-	for (char letters = 'a'; letters <= 'z'; letters++)
+	char letters;
+
+	for (letters = 'a'; letters <= 'z'; letters++)
 	{
 		putchar(letters);
 	}
