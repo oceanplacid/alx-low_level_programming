@@ -20,8 +20,9 @@ int _islower(int c)
 	}
 
 }
-int main(void)
-{
-	_islower('H');
-	return (0);
-}
+/**int main(void)
+ *{
+ *	_islower('H');
+ *	return (0);
+ *}
+ */
