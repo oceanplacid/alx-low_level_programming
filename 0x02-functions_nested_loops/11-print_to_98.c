@@ -10,16 +10,17 @@
 
 void print_to_98(int n)
 {
-	int x
+	int x;
 	
 	if (n >= 0)
 	{
-		for (x = n; x++; x<=98)
+		for (x = n; x <= 98; x++)
 		putchar(x);
 	}
 }
-int main(void)
-{
-	print_to_98(5);
-	return (0);
-}
+/**int main(void)
+ *{
+ *	print_to_98(5);
+ *	return (0);
+ *}
+ */
