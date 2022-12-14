@@ -11,12 +11,12 @@
 void print_to_98(int n)
 {
 	int x;
-
-	if (n >= 0)
+	
+	for (x = n; x <= 98; x++)
 	{
-		for (x = n; x <= 98; x++)
-		putchar(x);
+		putchar('0' + x);
 	}
+	putchar('\n');
 }
 /**int main(void)
  *{
