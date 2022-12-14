@@ -7,10 +7,10 @@
  *
  * Return: Always 0
  */
-int test_islower(int c)
+int _islower(int c)
 {
 
-	if (test_islower(c))
+	if (_islower(c))
 	{
 		return (1);
 	}

@@ -1,4 +1,5 @@
 void print_alphabet(void);
+int _islower(int);
 void print_alphabet_x10(void);
 char _putchar(char);
 int print_last_digit(int);
