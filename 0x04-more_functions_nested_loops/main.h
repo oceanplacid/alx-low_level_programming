@@ -6,5 +6,7 @@ int _isupper(int);
 int _isdigit(int);
 int isupper(int);
 int  isdigit(int);
+int mul(int, int);
+
 
 #endif
