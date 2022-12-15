@@ -9,6 +9,6 @@ int  isdigit(int);
 int mul(int, int);
 int print_numbers(void);
 int _putchar(char c);
-int print_line(void);
+void print_line(int n);
 
 #endif

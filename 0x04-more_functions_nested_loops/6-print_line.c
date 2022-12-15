@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 
-int main(void)
+void print_line(int n)
 {
-	_putchar('_');
+	int num;
+	num = 0;
+
+	while (num < n)
+	{
+		_putchar('_');
+		num++;
+	}
 	_putchar('\n');
-	return (0);
 }
