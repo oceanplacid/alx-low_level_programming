@@ -8,6 +8,7 @@ int isupper(int);
 int  isdigit(int);
 int mul(int, int);
 int print_numbers(void);
-int _putchar(int);
+int _putchar(char c);
+int print_line(void);
 
 #endif
