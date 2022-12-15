@@ -7,6 +7,6 @@ int _isdigit(int);
 int isupper(int);
 int  isdigit(int);
 int mul(int, int);
-
+int print_numbers(void);
 
 #endif
