@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int print_numbers(void)
+void print_numbers(void)
 {
 	int num;
 
@@ -12,5 +12,5 @@ int print_numbers(void)
 		_putchar (num);
 		num++;
 	}
-	putchar ('\n');
+	_putchar ('\n');
 }

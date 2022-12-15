@@ -7,7 +7,7 @@ int _isdigit(int);
 int isupper(int);
 int  isdigit(int);
 int mul(int, int);
-int print_numbers(void);
+void print_numbers(void);
 int _putchar(char c);
 void print_line(int n);
 
