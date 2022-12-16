@@ -46,3 +46,8 @@ void fizz_buzz(void)
 	}
 	putchar('\n');
 }
+int main(void)
+{
+	fizz_buzz();
+	return (0);
+}
