@@ -1,16 +1,31 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * mul - multiplies the two parameters passed to mul
- * Return: returns the result of the multiplication
- * @a: first parameter 
- * @b: second parameter
+ * more_numbers - print a sequence of numbers 10 times
+ * Return: void
  */
-int mul(int a, int b)
+void more_numbers(void)
 {
-	int result;
+	int num;
+	int count;
 
-	result = a * b;
+	count = 1;
 
-	return (result);
+start:
+	for (num = 0; num <= 14; num++)
+	{
+		_putchar('0' + num);
+	}
+	_putchar('\n');
+	count++;
+	while (count <= 10)
+	{
+		goto start;
+	}
+	_putchar('\n');
+
+}
+int main(void)
+{
+	more_numbers();
+	return (0);
 }
