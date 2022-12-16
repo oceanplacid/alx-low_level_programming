@@ -1,23 +1,16 @@
 #include <stdio.h>
 #include "main.h"
-
-int _isdigit(int c)
+/**
+ * mul - multiplies the two parameters passed to mul
+ * Return: returns the result of the multiplication
+ * @a: first parameter 
+ * @b: second parameter
+ */
+int mul(int a, int b)
 {
-	if (isdigit(c))
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
-	
-}
-int main(void)
-{
-	char c;
+	int result;
 
-	c = 'a';
-	printf("%c: %d\n", c, _isdigit(c));
+	result = a * b;
 
+	return (result);
 }
