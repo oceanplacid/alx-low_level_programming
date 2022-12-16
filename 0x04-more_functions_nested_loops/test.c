@@ -1,28 +1,23 @@
+#include <stdio.h>
 #include "main.h"
 
-void print_square(int size)
+int _isdigit(int c)
 {
-	int count;
-	int rows;
-
-	rows = 0;
+	if (isdigit(c))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 	
-	start:
-
-		for (count = 0; count < size; count++)
-		{
-			_putchar('#');
-		}
-		_putchar('\n');
-		rows++;
-		while (rows < size)
-		{
-			goto start;
-		}	
 }
 int main(void)
 {
-	print_square(5);
-	print_square(2);
-	return (0);
+	char c;
+
+	c = 'a';
+	printf("%c: %d\n", c, _isdigit(c));
+
 }

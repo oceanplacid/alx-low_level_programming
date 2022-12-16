@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include "main.h"
-
+/**
+ * _isdigit - checks if the input is a digit
+ *
+ * Return: 1 if input is digit and 0 if input is not a digit
+ */
 int _isdigit(int c)
 {
 	if (isdigit(c))
