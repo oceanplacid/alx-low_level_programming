@@ -1,31 +1,25 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * more_numbers - print a sequence of numbers 10 times
+ * print_line - prints a straight line a giving number of times
  * Return: void
+ * @n: parameter for print_line
  */
-void more_numbers(void)
+void print_line(int n)
 {
 	int num;
-	int count;
 
-	count = 1;
+	num = 0;
 
-start:
-	for (num = 0; num <= 14; num++)
+	while (num < n)
 	{
-		_putchar('0' + num);
+		_putchar('_');
+		num++;
 	}
 	_putchar('\n');
-	count++;
-	while (count <= 10)
-	{
-		goto start;
-	}
-	_putchar('\n');
-
 }
 int main(void)
 {
-	more_numbers();
+	print_line(10);
 	return (0);
 }
