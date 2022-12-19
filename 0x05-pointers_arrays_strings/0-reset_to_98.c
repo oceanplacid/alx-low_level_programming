@@ -9,6 +9,9 @@ void reset_to_98(int *n)
 	unsigned long int i;
 	*n = 98;
 
-	_putchar(&n);
+	for (i = 0; i < sizeof(n); i++)
+	{
+		_putchar('0' + n[i]);
+	}
 	_putchar('\n');
 }
