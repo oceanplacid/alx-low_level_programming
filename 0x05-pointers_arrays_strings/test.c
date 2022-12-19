@@ -11,7 +11,10 @@ void reset_to_98(int *n)
 
 	for (i = 0; i < sizeof(n); i++)
 	{
-		_putchar(n[i]);
+		while (n != '\n')
+		{
+			_putchar(n[i] + '0');
+		}
 	}
 	_putchar('\n');
 	
@@ -22,6 +25,6 @@ int main(void)
 
 	a = 402;
 	reset_to_98(&a);
-	printf(a);
+	printf("%c",a);
 	return (0);
 }
