@@ -6,8 +6,8 @@
  */
 void reset_to_98(int *n)
 {
-	*n = 98;
 	long unsigned int i;
+	*n = 98;
 
 	for (i = 0; i < sizeof(n); i++)
 	{
