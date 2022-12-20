@@ -10,6 +10,7 @@ void rev_string(char *s)
 	char last;
 	int i;
 
+	count = 0;
 	while (*s)
 	{
 		s++;
