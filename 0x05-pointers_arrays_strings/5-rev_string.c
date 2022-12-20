@@ -15,6 +15,10 @@ void rev_string(char *s)
 		s++;
 		count++;
 	}
+	for (i = 0; i < count; i++)
+	{
+		s--;
+	}
 	for (i = 0; i < (count / 2); i++)
 	{
 		int last_count;
